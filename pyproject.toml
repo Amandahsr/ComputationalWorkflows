@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "computervision-imageprocessing-techniques"
+version = "0.1.0"
+description = "A repository of scripts implementing useful computer vision and machine learning models, particularly in the image processing field."
+authors = ["Amanda SR Ho <amanda.hsr@u.nus.edu>"]
+license = "GPL-3.0 license"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+black = "^24.4.2"
+flake8 = "^7.0.0"
+isort = "^5.13.2"
+pytest = "^8.2.2"
+opencv-python = "^4.10.0.82"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
